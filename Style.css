@@ -10,6 +10,9 @@ body {
   margin: 0;
 }
 
+a:hover {
+  color: #646a71;
+}
 header {
   background-color: #f58522;
   width: 100%;
@@ -46,14 +49,22 @@ header img {
   height: 350px;
   border-radius: 10px 10px 10px 10px;
   margin: auto;
-  font-size:25px;
-  color: #646A71;
-  padding:2% 2%;
+  font-size: 25px;
+  color: #646a71;
+  padding: 2% 2%;
   margin-bottom: 10%;
 }
-footer{
-  background-color: #646A71;
+footer {
+  background-color: #646a71;
   width: 100%;
   height: 90px;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer img {
+  padding-left: 2%;
+}
+footer a {
+  padding-left: 2%;
 }
