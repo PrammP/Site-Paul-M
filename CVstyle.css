@@ -28,7 +28,7 @@ body {
 .h1h4 {
   display: flex;
   color: white;
-  margin-left: 8%;
+  margin-left: 10%;
   justify-content: flex-start;
   flex-direction: column;
   padding-right: 70px;
