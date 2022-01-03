@@ -15,7 +15,7 @@ body {
   margin-top: 80px;
   border-radius: 10px;
   border: 1px solid #f58522;
-  width: 100%;
+  width: auto;
   align-items: center;
 }
 .fondb img {
@@ -28,7 +28,7 @@ body {
 .h1h4 {
   display: flex;
   color: white;
-  margin-left: 17%;
+  margin-left: 10%;
   justify-content: flex-start;
   flex-direction: column;
   padding-right: 70px;
@@ -144,4 +144,18 @@ header a {
 }
 header img {
   margin-left: 20px;
+}
+footer {
+  background-color: #646a71;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer img {
+  padding-left: 2%;
+}
+footer a {
+  padding-left: 2%;
 }
