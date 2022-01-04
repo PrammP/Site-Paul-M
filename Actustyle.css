@@ -63,7 +63,10 @@ a:hover {
     width: 500px;
     height: 350px;
     border-radius: 25px 25px 25px 25px;
+    margin: 1% 2%;
+  }
+  .fondcarre
+  {
     display: flex;
-    justify-content: space-around;
-    margin: 2% 2%;
+    flex-wrap: wrap;
   }
