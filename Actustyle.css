@@ -64,6 +64,8 @@ a:hover {
     height: 214px;
     border-radius: 5px 5px 5px 5px;
     margin: 0 1.5%;
+    min-width: 389px;
+    min-height: 214px;
     
   }
   .fondcarre
