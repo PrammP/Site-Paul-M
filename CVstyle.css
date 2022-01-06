@@ -13,7 +13,6 @@ body {
   background-color: #f58522;
   height: 150px;
   margin-top: 80px;
-  
   border: 1px solid #f58522;
   width: auto;
   align-items: center;
@@ -24,7 +23,7 @@ body {
   border-radius: 50%;
   margin-top: 12px;
   border: 12px solid white;
-  margin-left: 25%;
+  margin-left: 38%;
 }
 .h1h4 {
   display: flex;
@@ -47,7 +46,7 @@ body {
   justify-content: flex-end;
   height: max-content;
   font-size: 18px;
-  padding-left: 180px;
+  padding-left: 15%;
 }
 h2 {
   color: #f58522;
@@ -135,7 +134,7 @@ header {
   height: 90px;
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 header a {
   text-decoration: none;

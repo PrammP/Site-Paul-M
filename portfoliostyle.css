@@ -17,7 +17,7 @@ a:hover {
     height: 90px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   header a {
     text-decoration: none;
@@ -48,8 +48,6 @@ a:hover {
     width: 500px;
     height: 350px;
     border-radius: 25px 25px 25px 25px;
-    display: flex;
-    justify-content: space-around;
     margin: 2% 2%;
   }
   .titrer
@@ -66,3 +64,9 @@ a:hover {
     margin: 7% auto;
     text-decoration: double;
   }
+.Fondcarre
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

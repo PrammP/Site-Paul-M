@@ -19,7 +19,7 @@ header {
   height: 90px;
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 header a {
   text-decoration: none;
