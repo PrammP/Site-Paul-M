@@ -16,6 +16,7 @@ body {
   border: 1px solid #f58522;
   width: auto;
   align-items: center;
+  justify-content: center;
 }
 .fondb img {
   height: 250px;
@@ -23,7 +24,7 @@ body {
   border-radius: 50%;
   margin-top: 12px;
   border: 12px solid white;
-  margin-left: auto;
+  
 }
 .h1h4 {
   display: flex;
