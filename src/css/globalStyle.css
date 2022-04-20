@@ -22,6 +22,9 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
   margin-left: 0;
+  box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
 }
 ul a {
   text-decoration: none;
@@ -30,6 +33,7 @@ ul a {
 }
 ul img {
   margin-left: 20px;
+  margin-top: 10%;
 }
 
 .bouton1 {
@@ -75,5 +79,21 @@ footer a {
 header{
   position: fixed;
   width: 100%;
-  margin-top: -125px;
+  margin-top: -8%;
+}
+.bouton2 {
+  display: flex;
+  background-color: #fb8d0b;
+  width: 600px;
+  height: 75px;
+  border-radius: 25px 25px 25px 25px;
+  color: #ffffff;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  margin: 7% auto;
+  text-decoration: double;
+}
+input:focus{
+  outline: none;   
 }

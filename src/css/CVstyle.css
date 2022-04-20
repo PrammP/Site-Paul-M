@@ -12,7 +12,7 @@ body {
   display: flex;
   background-color: #f58522;
   height: 150px;
-  margin-top: 80px;
+  margin-top: 12%;
   border: 1px solid #f58522;
   width: auto;
   align-items: center;
@@ -36,9 +36,11 @@ body {
 }
 .h1h4 h1 {
   padding-left: 45px;
+  margin-left: -42%;
 }
 .h1h4 h4 {
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: -45%;
 }
 
 .infosg {
@@ -118,8 +120,9 @@ h2 {
   width: 100%;
   text-align: center;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-top: -5px;
+  padding-bottom: 2%;
   font-size: 18px;
 }
 .Infos {
@@ -138,6 +141,9 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
   margin-left: 0;
+  box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
 }
 ul a {
   text-decoration: none;
@@ -146,6 +152,7 @@ ul a {
 }
 ul img {
   margin-left: 20px;
+  margin-top: 10%;
 }
 
 footer {
@@ -166,5 +173,5 @@ footer a {
 header{
   position: fixed;
   width: 100%;
-  margin-top: -97px;
+  margin-top: -13%;
 }

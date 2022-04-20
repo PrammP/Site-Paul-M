@@ -20,6 +20,9 @@ ul {
     justify-content: space-evenly;
     list-style-type: none;
     margin-left: 0;
+    box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 7px 10px 6px rgba(119, 119, 119, 0.75);
 }
 ul a {
     text-decoration: none;
@@ -28,6 +31,7 @@ ul a {
 }
 ul img {
     margin-left: 20px;
+    margin-top: 10%;
   }
   
 footer {
@@ -90,9 +94,6 @@ footer a {
 header{
   position: fixed;
   width: 100%;
-  margin-top: -122px;
-}
-.navbarIMG{
-  margin-top: 5px;
-  justify-content: flex-start;
+  margin-top: -8%;
+  
 }
