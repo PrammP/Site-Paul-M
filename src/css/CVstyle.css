@@ -36,11 +36,11 @@ body {
 }
 .h1h4 h1 {
   padding-left: 45px;
-  margin-left: -42%;
+  margin-left: -20%;
 }
 .h1h4 h4 {
   margin-top: 0;
-  margin-left: -45%;
+  margin-left: -30%;
 }
 
 .infosg {
@@ -80,6 +80,7 @@ h2 {
   width: 100%;
   text-align: center;
   align-items: center;
+  padding-top: 3%;
   
 }
 .dflex .compe-list {
