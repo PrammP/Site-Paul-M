@@ -16,12 +16,12 @@
               <li class="navbar"> <a href="portfolioIndex.html">Portfolio</a></li>
               <li class="navbar"> <a href="CVindexIndex.html">CV</a></li>
               <li class="navbar"> <a href="ActuIndex.html">Actualités</a></li>
-              <li class="navbar"> <a href="formulaire.html">Contact</a></li>
+              <li class="navbar"> <a href="../src/php/formulaire.php">Contact</a></li>
             </ul>
           </nav>
       </header>
     <div class="containForm">
-    <form id="formul" method="POST" action="traitement.php">
+    <form id="formul" method="post" action="traitement.php">
         <p>
          <label for="name" ><strong>Nom :</strong></label>
          <input name="name" placeholder="Nom" id="nom"> 
