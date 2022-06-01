@@ -52,8 +52,8 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
 
 
   footer {
-    max-height: 75px;
-    min-width: 300px;
+    max-height: 60px;
+    min-width: 260px;
     
     display: flex;
    justify-content: space-evenly;
@@ -250,11 +250,11 @@ header ul {
 .compe-list p {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 .compe-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: spa;
   font-size: 18px;
 }
 
@@ -483,6 +483,26 @@ input:focus{
     align-items: center;
     
     margin-top: 4px;
+
+}
+@media screen and (max-width: 1000px) {
+.background {
+  display: none;
+  }
+  
+  .infosg{
+    font-size: 11px;
+   
+  }
+  .fondb img {
+    height: 200px;
+    width: 200px;
+    margin-left: -60px;
+  }
+  .dflex img {
+    height: 80%;
+    width: 80%;
+  }
 
 }
 

@@ -21,7 +21,7 @@
           </nav>
       </header>
     <div class="containForm">
-    <form id="formul" method="POST" action="page recept">
+    <form id="formul" method="POST" action="traitement.php">
         <p>
          <label for="name" ><strong>Nom :</strong></label>
          <input name="name" placeholder="Nom" id="nom"> 
