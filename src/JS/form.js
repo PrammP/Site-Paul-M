@@ -24,7 +24,6 @@ document.querySelector("form").addEventListener("submit", (ev) =>
     checkError(prenom, "lname")
     checkError(mail,"mail1")
     checkCBox (cgu,"CGU")
-    document.getElementById("verif").classList.remove("cache");
     ev.preventDefault();
     
 });

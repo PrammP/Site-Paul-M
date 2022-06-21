@@ -110,10 +110,11 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
   overflow: hidden;
   width: 400px;
   text-align: center;
+  border-radius: 25px 25px 25px 25px;
 }
 .portfolio_1 .fadedbox {
   background-color: #666666;
-  border-radius: 25px 25px;
+  border-radius: 25px 25px 25px 25px;
   position: absolute;
   top: 0;
   left: 0;
@@ -142,7 +143,7 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
   -webkit-transform: translateY(30px);
 }
 .portfolio_1 .title {
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
   opacity: 0;
   transition-delay: 0.2s;
