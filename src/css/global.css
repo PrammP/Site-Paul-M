@@ -34,6 +34,7 @@ body {
   background-color: #EF8433;
   
   
+  
 }
 a:hover {
     color: #646a71;
@@ -534,6 +535,49 @@ font-size: 25px;
 }
 
 }
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .informations{
+    height: 50vh;
+    font-size: 29px;
+    margin-top: 50px;
+  }
+  .containForm{
+    margin-top: -200px;
+  }
+  .infosg{
+    font-size: 25px;
+    
+   
+  }
+  .fond{
+    display: flex;
+    height: 20vh;
+    width: 90vw;
+    justify-content: space-evenly;
+  }
+  .fondb img {
+    display: none;
+  }
+  .h1h4 h1 {
+    
+    font-size: 35px;
+    
+  }
+  .h1h4 h4 {
+    
+    font-size: 30px;
+  }
+  .dflex2 {
+    font-size: 22px;
+  }
+  .dflex3{
+    font-size: 22px;
+  }
+  
+
+}
+
+  
 
 
 
