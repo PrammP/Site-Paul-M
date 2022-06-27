@@ -260,6 +260,11 @@ header ul {
   font-size: 18px;
 }
 
+textarea{
+  resize: vertical;
+  
+  max-height: 20vh;
+}
 .dflex {
   display: flex;
   justify-content: space-evenly;
