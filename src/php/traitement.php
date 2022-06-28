@@ -17,12 +17,14 @@
 
         if (isset($_POST["nom"])&&
            isset($_POST["prenom"])&&
+           isset($_POST["sujet"])&&
            isset($_POST["email"])&&
            isset($_POST["cgu"])
            ){
-               $insertion=$newBD->prepare("INSERT INTO profil VALUES(NULL,:nom,:prenom,:email,:comment)");
+               $insertion=$newBD->prepare("INSERT INTO profil VALUES(NULL,:nom,:prenom,:sujet,:email,:comment)");
                $insertion->bindValue(":nom",$_POST["nom"]);
                $insertion->bindValue(":prenom",$_POST["prenom"]);
+               $insertion->bindValue(":sujet",$_POST["sujet"]);
                $insertion->bindValue(":email",$_POST["email"]);
                $insertion->bindValue(":comment",$_POST["comment"]);
                $verification=$insertion->execute();

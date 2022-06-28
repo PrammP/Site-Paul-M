@@ -20,10 +20,12 @@ function checkCBox(element, id)
 document.querySelector("form").addEventListener("submit", (ev) =>
 {
     ev.preventDefault();
-    checkError(nom, "name");
+    checkError(nom, "nom");
     checkError(prenom, "lname")
+    checkError (sujet,"subject")
     checkError(mail,"mail1")
     checkCBox (cgu,"CGU")
+    
     ev.preventDefault();
     
 });

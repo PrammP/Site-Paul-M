@@ -6,7 +6,7 @@
 
 .background {
   position: fixed;
-  background-image: url('../IMG/fond-site.svg');
+ 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url('../IMG/fond-site.svg');
+  
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -31,7 +31,7 @@ body {
   background-attachment: fixed;
   width: 100vw;
   overflow-x: hidden;
-  background-color: #EF8433;
+  background-color: #ffbf69;
   
   
   
@@ -40,13 +40,13 @@ a:hover {
     color: #646a71;
   }
   ul {
-    background-color: #f58522;
+    background-color: #ff9f1c;
     height: 90px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-left: 0;
+    
     -webkit-box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79); 
 box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
 }
@@ -61,10 +61,12 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
     align-items: center;
     bottom: 0px;
     position: fixed;
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 50px 50px 50px 50px;
     margin: 1% 1%;
-    background-color: #fb8d0b;
-    border-color: black;
+    background-color: #ff9f1c;
+    border-color: white;
+    border: solid 1px black;
+
     border-style: solid;
     z-index: 11;
     
@@ -75,7 +77,7 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
   .rectanglegris
   {
    display: flex;
-   background-color: black;
+   background-color: #ff9f1c;
     width: 450px;
     height: 350px;
     border-radius: 25px 25px 25px 25px;
@@ -89,11 +91,11 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
   .titrerr
   {
     display: flex;
-    background-color: black;
+    background-color:#ff9f1c ;
     width: 600px;
     height: 75px;
     border-radius: 25px 25px 25px 25px;
-    color: #fb8d0b;
+    color: #cbf3f0;
     font-size: 35px;
     justify-content: center;
     align-items: center;
@@ -183,14 +185,14 @@ header ul {
 }
 .fond {
   display: flex;
-  background-color: #f58522;
+  background-color: #ff9f1c;
   height: 150px;
   
   margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px 25px 25px 25px;
-  border: 1px solid black;
+  
   width: 70%;
   align-items: center;
   justify-content: center;
@@ -200,14 +202,14 @@ header ul {
   width: 250px;
   border-radius: 50%;
   margin-top: 12px;
-  border: 12px solid #EF8433;
+  border: 12px solid #ffbf69;
   margin-right: 50px;
   
   
 }
 .h1h4 {
   display: flex;
-  color: black;
+  color: #cbf3f0;
   margin-left: 12%;
   justify-content: flex-start;
   flex-direction: column;
@@ -227,7 +229,7 @@ header ul {
 
 .infosg {
   display: flex;
-  color: black;
+  color: #cbf3f0;
   justify-content: flex-end;
   height: max-content;
   font-size: 13px;
@@ -239,7 +241,7 @@ header ul {
   padding-left: 200px;
   text-decoration: double;
   font-size: 30px;
-  border-bottom: solid 3px;
+  border-bottom: solid 2px;
   width: 80vw;
  
  
@@ -261,7 +263,7 @@ header ul {
 }
 
 textarea{
-  resize: vertical;
+  resize: none;
   
   max-height: 20vh;
 }
@@ -326,7 +328,7 @@ a:hover {
   color: white;
 }
 ul {
-  background-color: #f58522;
+  background-color: #ff9f1c;
   width: 100%;
   height: 90px;
   align-items: center;
@@ -339,7 +341,7 @@ box-shadow: 6px 3px 18px 2px rgba(0,0,0,0.79);
 }
 ul a {
   text-decoration: none;
-  color: black;
+  color: #cbf3f0;
   font-size: 30px;  
 }
 ul img {
@@ -348,30 +350,50 @@ ul img {
 }
 .bouton1 {
   display: flex;
-  background-color: black;
+  background-color: #ff9f1c;
   width: 40%;
   height: 75px;
-  border-radius: 25px 25px 25px 25px;
-  color: #fb8d0b;
+  border-radius: 15px 15px 15px 15px;
+  color: #cbf3f0;
   font-size: 35px;
   justify-content: center;
   align-items: center;
   margin-top: 7% ;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 5%;
   text-decoration: double;
 }
 .informations {
-  background-color: #f58522;
+  background-color: #ff9f1c;
   font-size: 18px;
   width: 50vw;
   border-radius: 10px 10px 10px 10px;
   margin: auto;
-  color: black;
+  color: #cbf3f0;
   padding: 2% 2%;
-  margin-bottom: 50%;
-  border: 1px solid black;
+}
+
+.bouton2 {
+  width: 17vw;
+  margin-top: 5rem;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ff9f1c;
+  border-color:  #cbf3f0;
+  text-decoration: double;
+  box-shadow: 2px 2px black;
+}
+.bouton2 a{
+  text-decoration: none;
+  color: #cbf3f0;
+
+
+}
+
+.grp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -381,11 +403,11 @@ input:focus{
 .titrer
   {
     display: flex;
-    background-color: black;
+    background-color: #ff9f1c;
     width: 600px;
     height: 75px;
     border-radius: 25px 25px 25px 25px;
-    color: #fb8d0b;
+    color: #cbf3f0;
     font-size: 35px;
     justify-content: center;
     align-items: center;
@@ -397,7 +419,7 @@ input:focus{
 }
 .rectangleegris
   {
-    background-color: #fb8d0b;
+    background-color: #ffbf69;
     width: 30vw;
     height: 214px;
     border-radius: 5px 5px 5px 5px;
@@ -425,7 +447,7 @@ input:focus{
   {
     width: 80vw;
     height: 250px;
-    background-color: black;
+    background-color: #ff9f1c;
     border-radius: 5px 5px 5px 5px;
     margin: 2% auto;
     display: flex;
@@ -453,7 +475,7 @@ input:focus{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #fb8d0b;
+  background-color: #ffbf69;
   color: white;
   border-radius: 25px 25px 25px 25px;
   height: 65vh;
@@ -465,7 +487,7 @@ input:focus{
 
 #formul input {
   
-  border-radius: 50px;
+  border-radius: 5px;
   border: none;
 }
 .buttonRDirect{
@@ -496,7 +518,29 @@ input:focus{
 .cate{
   color:black;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
+.phoneContact{
+  
+  padding-left: 5rem;
+ 
+  
+
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+  
+  
+}
+.positionContact{
+  padding-right: 5rem;
+  text-align: center;
+}
 
 
 
@@ -538,8 +582,10 @@ font-size: 25px;
   height: 3vh;
   
 }
-
 }
+
+
+
 @media screen and (min-width: 800px) and (max-width: 1000px) {
   .informations{
     height: 50vh;
@@ -551,8 +597,6 @@ font-size: 25px;
   }
   .infosg{
     font-size: 25px;
-    
-   
   }
   .fond{
     display: flex;
@@ -564,9 +608,7 @@ font-size: 25px;
     display: none;
   }
   .h1h4 h1 {
-    
-    font-size: 35px;
-    
+  font-size: 35px;
   }
   .h1h4 h4 {
     
@@ -581,6 +623,7 @@ font-size: 25px;
   
 
 }
+
 
   
 
