@@ -39,6 +39,7 @@
                print "<br>Une variable n'est pas declaree et ou null";
            }
            
+           header('Location: /Site-Paul-M/html/formulaire.html')
         
 
     ?>
