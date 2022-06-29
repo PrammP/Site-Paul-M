@@ -490,13 +490,9 @@ input:focus{
 #cgu{
   max-width: 1.5vw;
 }
-
 .sending{
   max-width: 10vw;
 }
-
-
-
 #formul input {
   width: 20vw;
   height: 5vh;
