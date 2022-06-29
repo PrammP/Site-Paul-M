@@ -18,8 +18,7 @@
         if (isset($_POST["nom"])&&
            isset($_POST["prenom"])&&
            isset($_POST["sujet"])&&
-           isset($_POST["email"])&&
-           isset($_POST["cgu"])
+           isset($_POST["email"])
            ){
                $insertion=$newBD->prepare("INSERT INTO profil VALUES(NULL,:nom,:prenom,:sujet,:email,:comment)");
                $insertion->bindValue(":nom",$_POST["nom"]);
@@ -39,6 +38,7 @@
                print "<br>Une variable n'est pas declaree et ou null";
            }
            
+           header('Location: /Site-Paul-M/html/formulaire.html')
         
 
     ?>
