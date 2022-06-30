@@ -14,11 +14,11 @@ function checkError(element, id)
 document.querySelector("form").addEventListener("submit", (ev) =>
 {
     e = ev;
+
     checkError(nom, "name");
     checkError(prenom, "lname")
     checkError (sujet,"subject")
     checkError(mail,"mail1")
-    
-    
-    
+
+
 });

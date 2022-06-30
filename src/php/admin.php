@@ -13,6 +13,7 @@ else
 <h1 class=h1>Dashboard Admin</h1>
 <table>
     <tr>
+
         
         <td><strong>Nom</strong></td>
         <td><strong>Prénom</strong></td>
@@ -32,9 +33,11 @@ try {
         $name = $row['nom'];
         $lastname = $row['prenom'];
         $message = $row['comment'];
+
         $sujet = $row['sujet'];
         $mail = $row['email'];
         
+
 
         
         
@@ -46,6 +49,7 @@ try {
         <td>$sujet</td>
         <td>$mail</td>
         
+
         
         <td><a href='#' id='delete'>Supprimer</a></td>
         </tr>";
