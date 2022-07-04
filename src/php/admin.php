@@ -47,10 +47,8 @@ try {
         <td>$message</td>
         <td>$mail</td>
         <td>$sujet</td>
+        "
         
-        <td><a href='#' id='delete'>Supprimer</a></td>
-        </tr>";
-    }
     $dbh = null;
 } catch (PDOException $e) {
     print "Erreur !: " . $e->getMessage() . "<br/>";
