@@ -1,7 +1,4 @@
 <title>Dashboard Admin</title>
-<script src="https://kit.fontawesome.com/ab98ebb4c8.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/admin.css">
 <?php
 session_start();
 if(isset($_SESSION['username'])){
@@ -16,9 +13,10 @@ else
 <h1 class=h1>Dashboard Admin</h1>
 <table>
     <tr>
-        <td scope="row"><strong>ID</strong></td>
-        <td><strong>Prénom</strong></td>
+
+        
         <td><strong>Nom</strong></td>
+        <td><strong>Prénom</strong></td>
         <td><strong>Message</strong></td>
         <td><strong>Sujet</strong></td>
         <td><strong>Mail</strong></td>
@@ -35,8 +33,11 @@ try {
         $name = $row['nom'];
         $lastname = $row['prenom'];
         $message = $row['comment'];
-        $mail = $row['email'];
+
         $sujet = $row['sujet'];
+        $mail = $row['email'];
+        
+
 
         
         
@@ -45,9 +46,10 @@ try {
         <td>$name</td>
         <td>$lastname</td>
         <td>$message</td>
-        <td>$mail</td>
         <td>$sujet</td>
+        <td>$mail</td>
         "
+
         
     $dbh = null;
 } catch (PDOException $e) {
