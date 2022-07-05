@@ -48,7 +48,7 @@ try {
         <td>$message</td>
         <td>$sujet</td>
         <td>$mail</td>
-        "
+        ";
 
         
     $dbh = null;
